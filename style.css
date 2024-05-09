@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(240_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    border: 3px solid #070707;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(187, 66, 167);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="date"],
+  input[type="color"],
+  input[type="search"],
+  input[type="range"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049a9;
+  }
+  .caption{
+    font-size: 40px;
+  }
+  input::placeholder{
+    color: #159e1a;
+    
+  }
+  textarea::placeholder{
+    color: #000000;
+  }
+  
+  

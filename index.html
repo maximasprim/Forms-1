@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h2 class="title">Maximas Forms</h2>
+    <form action="">
+      <fieldset>
+        <caption class="caption">
+          FORMS ASSIGNMENT
+        </caption>
+        <br />
+        <br />
+        <legend>INPUT TYPES</legend>
+        <label for="text">Your user name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          pattern="[A-Za-z]{3,}"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="email">Your Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email Address"
+          required
+        />
+        <br />
+        <br />
+        <label for="number">Enter a number:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          min="0"
+          max="100"
+          step="4"
+          required
+        />
+
+        <br />
+        <br />
+
+        <label for="password">Provide password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="6"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="date">Select the date:</label>
+        <input type="date" id="date" name="date" required />
+        <br />
+        <br />
+        <label for="color">Color Input:</label>
+        <input type="color" id="color" name="color" required />
+        <br />
+        <br />
+        <label for="search">Search:</label>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search here"
+        />
+        <br />
+        <br />
+        <label for="range">Rate us:</label>
+        <input
+          type="range"
+          id="range"
+          name="range-input"
+          min="0"
+          max="10"
+          step="5"
+        />
+        <br />
+        <br />
+        <label for="textarea">Enter Your Message</label>
+        <textarea
+          name="textarea"
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Enter your Message"
+        ></textarea>
+        <br />
+        <br />
+
+        <label for="select">Select Your Choice:</label>
+        <select id="select" name="select" required>
+          <option value="">Select an option</option>
+          <option value="A">Yes</option>
+          <option value="B">No</option>
+          <option value="C">Am not sure</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
